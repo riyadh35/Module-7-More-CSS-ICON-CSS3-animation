@@ -1,0 +1,51 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px 20px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.301);
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid lightcoral;
+    padding: 2px 5px;
+}
+
+.head h1 {
+    color: firebrick;
+    text-align: center;
+    display: block;
+    /* background: red; */
+}
+
+.head p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.head h1:hover {
+    color: black;
+}
